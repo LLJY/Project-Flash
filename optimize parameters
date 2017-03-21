@@ -1,0 +1,8 @@
+echo 'fiops' > /sys/block/mmcblk0/queue/scheduler
+echo 'fiops' > /sys/block/mmcblk1/queue/scheduler
+echo '128' > /proc/sys/kernel/random/write_wakeup_threshold
+echo '64' > /proc/sys/kernel/random/read_wakeup_threshold
+echo '2048' > /sys/block/mmcblk0/queue/read_ahead_kb
+echo '2048' > /sys/block/mmcblk1/queue/read_ahead_kb
+
+

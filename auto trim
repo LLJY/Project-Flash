@@ -1,0 +1,6 @@
+while true; do
+fstrim -v /system
+fstrim -v /data
+fstrim -v /cache
+sleep 43200
+done
